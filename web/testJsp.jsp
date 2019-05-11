@@ -13,11 +13,7 @@
 <body>
 <h1>Testing JSP</h1>
 <p>
-        <%@ page import="java.lang.Thread"%>
-    <%
-        String name =request.getParameter("id");
-        out.println("<center><h1 style=size:42px>"+ name+"</h1></center>");
-    %>
+    hoho
 </p>
 </body>
 </html>

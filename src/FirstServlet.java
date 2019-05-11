@@ -32,7 +32,7 @@ public class FirstServlet extends HttpServlet {
         PrintWriter pw = response.getWriter();
 
         pw.println("<html>");
-        pw.println("<h1> Your count is "+count +"</h1>");
+//        pw.println("<h1> Your count is "+count +"</h1>");
 //        pw.println("<center><h1> Hello "+ name + " "+lastName+" </h1></center>");
 
         pw.println("</html>");
